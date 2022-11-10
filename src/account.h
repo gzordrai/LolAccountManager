@@ -13,6 +13,9 @@ private:
 public:
     Account(string id, string password, string pseudo);
     string getId();
+    string getPassword();
+    void connect();
+    void disconnect();
 };
 
 #endif

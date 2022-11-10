@@ -16,3 +16,11 @@ Account::Account(string id, string password, string pseudo) {
 string Account::getId() {
     return this->id;
 }
+
+string Account::getPassword() {
+    return this->password;
+}
+
+void Account::connect() {
+    
+}
